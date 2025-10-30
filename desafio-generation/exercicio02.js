@@ -1,10 +1,11 @@
-import readline from 'readline-sync'
+import readline from 'readline-sync';
 
-let nota1 = parseFloat(readline.question("Nota 1: "));
-let nota2 = parseFloat(readline.question("Nota 2: "));
-let nota3 = parseFloat(readline.question("Nota 3: "));
-let nota4 = parseFloat(readline.question("Nota 4: "));
+let primeiraNota = readline.questionInt("Digite a primeira nota: ");
+let segundaNota = readline.questionInt("Digite a segunda nota: ");
+let terceiraNota = readline.questionInt("Digite a terceira nota: ");
+let quartaNota = readline.questionInt("Digite a quarta nota: ");
 
-let media = (nota1 + nota2 + nota3 + nota4) / 4;
+let media = (primeiraNota + segundaNota + terceiraNota + quartaNota)/4;
 
-console.log("Média final: " + media.toFixed(1));
+
+console.log(`A média é: ${media}`);

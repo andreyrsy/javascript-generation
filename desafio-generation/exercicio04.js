@@ -1,10 +1,10 @@
-import readline from 'readline-sync'
+import readline from 'readline-sync';
 
-let n1 = parseFloat(readline.question("numero1: "));
-let n2 = parseFloat(readline.question("numero2: "));
-let n3 = parseFloat(readline.question("numero3: "));
-let n4 = parseFloat(readline.question("numero4: "));
+let n1 = readline.questionInt("Digite o primeiro numero: ");
+let n2 = readline.questionInt("Digite o segundo numero: ");
+let n3 = readline.questionInt("Digite o terceiro numero: ");    
+let n4 = readline.questionInt("Digite o quarto numero: ");
 
 let diferenca = (n1 * n2) - (n3 * n4);
 
-console.log("Diferença: " + diferenca.toFixed(1));
+console.log("A diferenca é: " + diferenca)

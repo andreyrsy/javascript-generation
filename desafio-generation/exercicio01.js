@@ -1,6 +1,9 @@
-import readline from 'readline-sync'
+import readline from 'readline-sync';
 
-let salario = parseFloat(readline.question("Digite o Salário: "));
-let abono = parseFloat(readline.question("Digite o Abono: "));
+let salario = readline.questionInt("Digite o salario: ")
+
+let abono = readline.questionInt("Digite o abono: ")
+
 let novoSalario = salario + abono;
-console.log("Novo Salário: " + novoSalario.toFixed(2));
+
+console.log("O novo salario é: " + novoSalario);
