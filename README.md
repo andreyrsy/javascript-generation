@@ -11,21 +11,53 @@ Este projeto faz parte do bootcamp Fullstack da Generation Brasil em parceria co
 
 ## 🧩 Estrutura do Projeto
 ```
+package.json
 desafio-generation/
 ├── lacos-condicionais.31.10/
+│   ├── exercicio01-if.js
+│   ├── exercicio02-if.js
+│   ├── exercicio03-switch.js
+│   ├── exercicio04-switch.js
+│   └── exercicio05-switch.js
 ├── lacos-de-repeticao.03.11/
+│   ├── exercicio01-for.js
+│   └── exercicio02-while.js
 └── logica-30.10/
+    ├── exercicio01.js
+    ├── exercicio02.js
+    ├── exercicio03.js
+    └── exercicio04.js
 
 lacos/
 ├── if.js
 ├── ifComposto.js
-└── [outros arquivos de exemplo...]
+├── ifElse.js
+├── ifEncadeado.js
+├── ifTernario.js
+├── switchCase.js
+└── var.js
+
+lacos-repeticao/
+├── do-while.js
+├── for.js
+├── for2.js
+├── for3.js
+├── vetor.js
+├── while.js
+└── while2.js
 
 operadores/
-└── [arquivos de operadores...]
+├── Aritmetico.js
+├── Conjuncao.js
+├── Disjucao.js
+└── IncreDecre.js
 
 variaveis_constantes/
-└── [arquivos de variáveis...]
+├── Constante.js
+├── Entrada.js
+├── NullUnd.js
+├── Saida.js
+└── Variavel.js
 ```
 
 ## 🛠️ Como Executar o Projeto
